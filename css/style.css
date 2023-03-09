@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: rgb(30, 23, 47);
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu p{
+    width: 80px;
+}
+
+.buttonMenu{
+    padding: 10px;
+    width: 110px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 196vh;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 110vh;
+}
+
+.purple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 37, 80);
+    color: white;
+    padding: 13%;
+}
+
+h1{
+    font-size: 12vh;
+    margin: 5vh;
+}
+
+.purple p{
+    width: 45vh;
+    font-size: 25px;
+    padding-bottom: 5vh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 2px;
+    width: 30vh;
+    height: 5vh;
+}
+
+#one{
+    color: rgb(244, 20, 134);
+    width: 200px;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+#two{
+    background-color: rgb(46, 37, 80);
+    color: white;
+    border-color: white;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.phone{
+    display: flex;
+    background-image: url(../images/jeremy-thomas-O6N9RV2rzX8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    align-items: center;
+}
+
+#phoneimg{
+    width: 200px;
+    height: 400px;
+    padding: 13%;
+}
+
+.mid{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(241, 242, 247);
+}
+
+.mid .title{
+    display: flex;
+    justify-content: center;
+    color: rgb(244, 20, 134);
+    font-size: 50px;
+    padding: 50px;
+}
+
+.mid2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.AlphaScreenshot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.AlphaScreenshot h3{
+    color: rgb(244, 20, 134);
+    font-size: 40px;
+    padding: 5px;
+}
+
+h5{
+    color: rgb(244, 20, 134); 
+    font-size: 20px;
+    padding: 10px;
+}
+
+.laptopImage img{
+  height: 40vh;
+  width: 70vh;
+}
+
+.bot{
+    background-color: rgb(30, 23, 47);
+    width: 100%;
+    height: 1000px;
+}
+
+.title2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.titlebot{
+    margin: 15px;
+    font-size: 60px;
+    margin: 50px;
+}
+
+.bot div h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+ #parrafobot{
+    color: white;
+    margin-bottom: 35px;
+  
+}
+
+.bot div p{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.windows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.windows h3{
+    background-color: rgb(227, 229, 235);
+    width: 100%;
+    height: 8vh;
+    padding: 10px;
+}
+
+.sellWindows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+    width: 40vh;
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+    border-radius: 3px;
+}
+
+#price{
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width:1024px){
+	
+    *{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header{
+        display: flex;
+        background-color: rgb(30, 23, 47);
+        color: white;
+        width: 1024px;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .menu{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .menu p{
+        width: 80px;
+    }
+    
+    .buttonMenu{
+        padding: 10px;
+        width: 110px;
+        align-items: center;
+    }
+    
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 1024px;
+    
+    }
+    
+    .top{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .purple{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(24, 88, 115);
+        color: white;
+    }
+    
+    h1{
+        font-size: 12vh;
+        margin: 5vh;
+    }
+    
+    .purple p{
+        width: 45vh;
+        font-size: 25px;
+        padding-bottom: 5vh;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid gray;
+        border-radius: 2px;
+        padding: 2px;
+        width: 30vh;
+        height: 5vh;
+    }
+    
+    #one{
+        color: rgb(244, 20, 134);
+        width: 200px;
+        border-radius: 5px;
+        border-color: white;
+        font-weight: bold;
+        margin-right: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #two{
+        background-color: rgb(46, 37, 80);
+        color: white;
+        border-color: white;
+        width: 150px;
+        border-radius: 5px;
+        margin-left: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .phone{
+        display: flex;
+        background-image: url(../images/campo-girasoles.avif);
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        background-size: 100%
+        
+    }
+    
+    #phoneimg{
+        width: 200px;
+        height: 400px;
+ 
+    }
+    
+    .mid{
+        width: 95vh;
+        height: 70vh;
+        background-color: rgb(241, 242, 247);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mid .title{
+        display: flex;
+        justify-content: center;
+        color: rgb(24, 88, 115);
+        font-size: 50px;
+        padding: 50px;
+    }
+    
+    .mid2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    
+    }
+    
+    .AlphaScreenshot{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+    }
+    
+    .AlphaScreenshot h3{
+        color: rgb(24, 88, 115);
+        font-size: 40px;
+        padding: 5px;
+    }
+    
+    h5{
+        color: rgb(24, 88, 115) ;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .laptopImage img{
+      height: 40vh;
+      width: 70vh;
+    }
+    
+    .bot{
+        background-color: rgb(24, 88, 115);
+        width: 100%;
+        height: 1000px;
+    }
+    
+    .title2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+    
+    .titlebot{
+        margin: 15px;
+        font-size: 60px;
+        margin: 50px;
+    }
+    
+    .bot div h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+    
+     #parrafobot{
+        color: white;
+        margin-bottom: 35px;
+      
+    }
+    
+    .bot div p{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .windows{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+    
+    .windows h3{
+        background-color: rgb(227, 229, 235);
+        width: 100%;
+        height: 8vh;
+        padding: 10px;
+    }
+    
+    .sellWindows{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        background-color: white;
+        width: 40vh;
+        margin: 10px;
+        padding: 10px;
+        height: 600px;
+        border-radius: 3px;
+    }
+    
+    #price{
+        color: black;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+    }
+    
+}
